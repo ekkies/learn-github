@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="th" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page Not Found · ECAP</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/learn-github/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap">
+<script>try { var t = localStorage.getItem('ecap-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #07080d; --text: #ece6d9; --muted: #9b968c; --line: rgba(214, 180, 106, .2);
+    --gold: #d6b46a; --gold-hi: #f5e3ad; --gold-lo: #8e6c2c; --on-gold: #0b0b10;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #f3f2ee; --text: #10152b; --muted: #5a5d6b; --line: rgba(134, 100, 31, .28);
+    --gold: #86641f; --gold-hi: #b98f3a; --gold-lo: #5a4112; --on-gold: #fffaf0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center;
+    padding: 2rem max(16px, env(safe-area-inset-right, 0px)) 2rem max(16px, env(safe-area-inset-left, 0px));
+    background: var(--bg); color: var(--text);
+    font-family: "Kanit", "Noto Sans Thai", system-ui, sans-serif; font-weight: 300;
+  }
+  main { width: min(100%, 44rem); display: grid; gap: 1.4rem; }
+  .eyebrow { font-size: .72rem; font-weight: 500; letter-spacing: .26em; text-transform: uppercase; color: var(--gold); }
+  .code {
+    margin: 0; font-size: clamp(7rem, 30vw, 15rem); font-weight: 200; line-height: .85; letter-spacing: -.05em;
+    background: linear-gradient(100deg, var(--gold-lo), var(--gold) 30%, var(--gold-hi) 50%, var(--gold) 70%, var(--gold-lo));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 3rem); font-weight: 300; letter-spacing: -.02em; line-height: 1.1; }
+  h1 em { color: var(--gold); }
+  p { margin: 0; color: var(--muted); }
+  .entry { border-left: 1px solid var(--gold); padding-left: 1rem; font-style: italic; }
+  a.btn {
+    justify-self: start; display: inline-flex; gap: .6rem; align-items: center; padding: 1rem 1.6rem; border-radius: 999px;
+    background: linear-gradient(120deg, var(--gold-lo), var(--gold) 40%, var(--gold-hi) 75%, var(--gold));
+    color: var(--on-gold); text-decoration: none; font-size: .85rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
+  }
+  a.btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Error · ECAP Programme</p>
+  <p class="code" aria-hidden="true">404</p>
+  <h1>This page is in the <em>past tense.</em></h1>
+  <p class="entry">“The page you were looking for <b>was</b> here once. It <b>is not</b> anymore.”</p>
+  <p>ไม่พบหน้าที่คุณค้นหา ลองกลับไปที่หน้าแรกของ ECAP</p>
+  <a class="btn" href="/learn-github/">Back to ECAP</a>
+</main>
+</body>
+</html>
