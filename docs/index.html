@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="th" data-theme="dark" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ECAP Programme</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="เว็บไซต์ทางการของสายการเรียน ECAP (English Communication & Academic Programme) สายการเรียนภาษาอังกฤษเพื่อการสื่อสารและวิชาการ ระดับ ม.4–ม.6">
+<meta name="theme-color" content="#07080d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ECAP Programme · Speak the world.">
+<meta property="og:description" content="English Communication & Academic Programme — สายการเรียนภาษาอังกฤษเพื่อการสื่อสารและวิชาการ">
+<meta property="og:image" content="https://ekkies.github.io/learn-github/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  (function (d) {
+    var r = d.documentElement;
+    r.classList.remove('no-js');
+    r.classList.add('js', 'is-loading');
+    try { var t = localStorage.getItem('ecap-theme'); if (t === 'light' || t === 'dark') r.setAttribute('data-theme', t); } catch (e) {}
+    // Failsafe: if the main script never boots, show the page without animations.
+    setTimeout(function () { if (!window.ECAP_READY) { r.classList.remove('js', 'is-loading'); r.classList.add('no-js'); } }, 4500);
+  })(document);
+</script>
+</head>
+<body>
+<a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <div class="preloader__word"><span>E</span><span>C</span><span>A</span><span>P</span></div>
+    <div class="preloader__meta">
+      <span>English Communication &amp; Academic Programme</span>
+      <span class="preloader__count">000</span>
+    </div>
+    <div class="preloader__bar"><i></i></div>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true">
+  <div class="cursor__dot"></div>
+  <div class="cursor__ring"><span class="cursor__label"></span></div>
+</div>
+<div class="progress" aria-hidden="true"><i></i></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="ECAP — กลับขึ้นด้านบน">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40"><rect x="1" y="1" width="38" height="38" rx="11"/><path d="M14 11h13M14 20h10M14 29h13M14 11v18"/></svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__word">ECAP</span>
+        <span class="brand__sub">Official Programme</span>
+      </span>
+    </a>
+    <nav class="nav__links" aria-label="เมนูหลัก">
+      <a href="#about" data-scramble>About</a>
+      <a href="#grammar" data-scramble>Pillars</a>
+      <a href="#journey" data-scramble>Journey</a>
+      <a href="#courses" data-scramble>Courses</a>
+      <a href="#lab" data-scramble>Grammar Lab</a>
+      <a href="#admissions" data-scramble>Admissions</a>
+      <a href="#contact" data-scramble>Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="สลับธีมสว่าง/มืด" data-cursor="Theme">
+        <svg class="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg>
+      </button>
+      <a class="btn btn--gold btn--sm magnetic nav__apply" href="#admissions"><span>Apply</span></a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="เปิดเมนู">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <div class="menu__inner">
+    <nav class="menu__links" aria-label="เมนูมือถือ">
+      <a href="#about"><span>About</span><small>เกี่ยวกับ</small></a>
+      <a href="#grammar"><span>Pillars</span><small>แก่นหลักสูตร</small></a>
+      <a href="#journey"><span>Journey</span><small>เส้นทาง 3 ปี</small></a>
+      <a href="#courses"><span>Courses</span><small>รายวิชา</small></a>
+      <a href="#lab"><span>Grammar Lab</span><small>ทดสอบไวยากรณ์</small></a>
+      <a href="#admissions"><span>Admissions</span><small>การรับสมัคร</small></a>
+      <a href="#contact"><span>Contact</span><small>ติดต่อเรา</small></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="#" data-site-href="email" data-site="email">ecap@yourschool.ac.th</a>
+      <a href="#" data-site-href="line" data-site="lineId">@ecap.official</a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <p class="eyebrow hero__eyebrow" data-hero style="--d: .1s"><span class="pulse" aria-hidden="true"></span>Official Website · สายการเรียน ECAP</p>
+
+      <h1 class="hero__title">
+        <span class="sr-only">ECAP — English Communication &amp; Academic Programme</span>
+        <span class="hero__word" aria-hidden="true">
+          <span class="hero__letter" data-depth="18"><span>E</span></span><span class="hero__letter" data-depth="32"><span>C</span></span><span class="hero__letter" data-depth="24"><span>A</span></span><span class="hero__letter" data-depth="40"><span>P</span></span>
+        </span>
+      </h1>
+
+      <div class="hero__copy" data-hero style="--d: .35s">
+        <p class="hero__tagline">Speak with <span class="rotator" data-words="confidence,clarity,class,purpose,style">confidence</span>.</p>
+        <p class="hero__th">ที่นี่ ภาษาอังกฤษคือภาษาที่เราใช้คิด ใช้พูด และใช้เปิดประตูสู่โลกกว้าง</p>
+        <div class="hero__cta">
+          <a class="btn btn--gold magnetic" href="#admissions"><span>Apply Now</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--ghost magnetic" href="#about"><span>Discover ECAP</span></a>
+        </div>
+      </div>
+
+      <div class="entry" data-hero style="--d: .55s">
+        <div class="entry__head">
+          <span class="entry__word">e·cap</span>
+          <span class="entry__ipa">/ˈiː.kæp/</span>
+          <span class="entry__pos">noun</span>
+          <button class="icon-btn entry__speak" type="button" data-speak="E-cap" aria-label="ฟังการออกเสียง ECAP" data-cursor="Listen">
+            <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+          </button>
+        </div>
+        <ol class="entry__defs">
+          <li><b>English Communication &amp; Academic Programme.</b> สายการเรียนที่เน้นการสื่อสารภาษาอังกฤษและทักษะเชิงวิชาการ</li>
+          <li>The art of turning words into opportunity.</li>
+          <li><i>informal</i> The coolest room in school, where English sounds effortless.</li>
+        </ol>
+        <p class="entry__ex">“She chose <b>ECAP</b>, and the world started listening.”</p>
+      </div>
+
+      <div class="hero__foot" data-hero style="--d: .75s">
+        <a class="scroll-cue" href="#about" aria-label="เลื่อนลงไปยังเนื้อหา"><i aria-hidden="true"></i><span>Scroll</span></a>
+        <p class="hero__meta">M.4 — M.6 <span aria-hidden="true">·</span> Bangkok <span class="clock" data-clock>--:--</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <section class="marquee" aria-label="คำศัพท์ประจำสาย ECAP">
+    <div class="marquee__row" data-dir="-1">
+      <div class="marquee__track">
+        <span class="mq"><b>Eloquent</b><i>adj.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Articulate</b><i>v.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Fluency</b><i>n.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Confidently</b><i>adv.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Rhetoric</b><i>n.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Persuade</b><i>v.</i></span><span class="mq-sep" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="marquee__row marquee__row--alt" data-dir="1">
+      <div class="marquee__track">
+        <span class="mq"><b>/ˈɡləʊ.bəl/</b><i>global</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Debate</b><i>n.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Compose</b><i>v.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Wit</b><i>n.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Curious</b><i>adj.</i></span><span class="mq-sep" aria-hidden="true"></span>
+        <span class="mq"><b>Lead</b><i>v.</i></span><span class="mq-sep" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow" data-reveal>About the Programme</p>
+        <p class="section__th" data-reveal>เกี่ยวกับสายการเรียน</p>
+      </div>
+      <p class="manifesto" data-manifesto>At ECAP, <em>English</em> is the language we live in. We use it in <em>debate halls</em> and on <em>stages</em>, across borders and online, and in every idea we are brave enough to <em>say out loud.</em></p>
+      <div class="about__grid">
+        <p class="about__th" data-reveal>ECAP คือสายการเรียนสำหรับนักเรียนที่รักภาษาอังกฤษและอยากใช้มันได้จริง เราผสานไวยากรณ์ที่แม่นยำ การสื่อสารที่มั่นใจ และทักษะเชิงวิชาการเข้าด้วยกัน เพื่อเตรียมผู้เรียนให้พร้อมสำหรับมหาวิทยาลัยและเวทีระดับโลก</p>
+        <dl class="stats">
+          <div class="stat" data-reveal>
+            <dt>Years</dt>
+            <dd><span class="stat__num" data-count="3">3</span></dd>
+            <dd class="stat__note">หลักสูตรต่อเนื่อง ม.4 – ม.6</dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>Core skills</dt>
+            <dd><span class="stat__num" data-count="4">4</span></dd>
+            <dd class="stat__note">ฟัง · พูด · อ่าน · เขียน</dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>Signature courses</dt>
+            <dd><span class="stat__num" data-count="8">8</span></dd>
+            <dd class="stat__note">รายวิชาเฉพาะของสาย ECAP</dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>CEFR target</dt>
+            <dd><span class="stat__num" data-scramble-in>B2</span></dd>
+            <dd class="stat__note">เป้าหมายระดับภาษาเมื่อจบหลักสูตร</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PILLARS (PARTS OF SPEECH) ============ -->
+  <section class="section pillars" id="grammar">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>The Grammar of ECAP</p>
+          <h2 class="h2" data-split>Six parts of speech. <em>One fluent you.</em></h2>
+        </div>
+        <p class="section__lead" data-reveal>เราออกแบบหลักสูตรเหมือนไวยากรณ์ ทุกส่วนมีหน้าที่ของตัวเอง และเมื่อมารวมกันจะกลายเป็นประโยคที่สมบูรณ์ ซึ่งก็คือตัวคุณ</p>
+      </div>
+
+      <div class="pillar-grid">
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">noun</span><span class="pillar__abbr">n.</span></div>
+          <h3 class="pillar__word">Knowledge</h3>
+          <p class="pillar__ipa">/ˈnɒl.ɪdʒ/</p>
+          <p class="pillar__def">The foundation. Academic English, literature and critical reading give every idea something solid to stand on.</p>
+          <p class="pillar__th">ภาษาอังกฤษเชิงวิชาการ วรรณกรรม และการอ่านเชิงวิเคราะห์</p>
+          <ul class="tags"><li>Academic Reading</li><li>Literature</li><li>Critical Thinking</li></ul>
+        </article>
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">verb</span><span class="pillar__abbr">v.</span></div>
+          <h3 class="pillar__word">Speak</h3>
+          <p class="pillar__ipa">/spiːk/</p>
+          <p class="pillar__def">The action. Public speaking, debate and presentations, practised until confidence becomes a habit.</p>
+          <p class="pillar__th">การพูดในที่สาธารณะ การโต้วาที และการนำเสนอ</p>
+          <ul class="tags"><li>Public Speaking</li><li>Debate</li><li>Presentation</li></ul>
+        </article>
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">adjective</span><span class="pillar__abbr">adj.</span></div>
+          <h3 class="pillar__word">Global</h3>
+          <p class="pillar__ipa">/ˈɡləʊ.bəl/</p>
+          <p class="pillar__def">The character. World cultures and global issues, explored through an English-speaking lens.</p>
+          <p class="pillar__th">วัฒนธรรมนานาชาติ ประเด็นโลก และการสื่อสารข้ามวัฒนธรรม</p>
+          <ul class="tags"><li>Global Issues</li><li>Culture</li><li>Media</li></ul>
+        </article>
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">adverb</span><span class="pillar__abbr">adv.</span></div>
+          <h3 class="pillar__word">Fluently</h3>
+          <p class="pillar__ipa">/ˈfluː.ənt.li/</p>
+          <p class="pillar__def">The manner. Listening, phonetics and real conversation shape how naturally you sound.</p>
+          <p class="pillar__th">การฟัง สัทศาสตร์ และการสนทนาในสถานการณ์จริง</p>
+          <ul class="tags"><li>Phonetics</li><li>Listening</li><li>Conversation</li></ul>
+        </article>
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">conjunction</span><span class="pillar__abbr">conj.</span></div>
+          <h3 class="pillar__word">And</h3>
+          <p class="pillar__ipa">/ænd/</p>
+          <p class="pillar__def">The connection. Camps, competitions and exchanges link you to people far beyond the classroom.</p>
+          <p class="pillar__th">ค่าย การแข่งขัน และกิจกรรมที่เชื่อมคุณกับโลกภายนอก</p>
+          <ul class="tags"><li>English Camp</li><li>Competitions</li><li>Exchange</li></ul>
+        </article>
+        <article class="pillar" data-tilt data-reveal>
+          <div class="pillar__top"><span class="pillar__pos">pronoun</span><span class="pillar__abbr">pron.</span></div>
+          <h3 class="pillar__word">You</h3>
+          <p class="pillar__ipa">/juː/</p>
+          <p class="pillar__def">The subject. Leadership, portfolio and university planning, because every sentence here is about you.</p>
+          <p class="pillar__th">ภาวะผู้นำ แฟ้มสะสมผลงาน และการวางแผนเข้ามหาวิทยาลัย</p>
+          <ul class="tags"><li>Leadership</li><li>Portfolio</li><li>TCAS</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY (TENSES) ============ -->
+  <section class="journey" id="journey">
+    <div class="journey__pin">
+      <div class="container journey__head">
+        <div>
+          <p class="eyebrow" data-reveal>Your Journey, in Tenses</p>
+          <h2 class="h2" data-split>From present simple to <em>future perfect.</em></h2>
+        </div>
+        <div class="journey__side">
+          <p class="section__lead" data-reveal>เส้นทาง 3 ปีใน ECAP เล่าผ่าน Tense ที่คุณคุ้นเคย</p>
+          <div class="journey__progress" aria-hidden="true"><i></i></div>
+        </div>
+      </div>
+      <div class="journey__viewport">
+        <ol class="journey__track">
+          <li class="tense">
+            <p class="tense__stage">Year 1 · M.4</p>
+            <p class="tense__name">Present Simple</p>
+            <p class="tense__formula">S + V<sub>1</sub></p>
+            <h3 class="tense__sentence">You <mark>build</mark> the foundation.</h3>
+            <p class="tense__th">ปูพื้นฐานไวยากรณ์ การออกเสียง และการฟัง-พูดอย่างเป็นระบบ สร้างนิสัยการใช้ภาษาอังกฤษทุกวัน</p>
+            <ul class="tags"><li>Grammar &amp; Syntax</li><li>Phonetics</li><li>Academic Reading</li><li>Public Speaking I</li></ul>
+          </li>
+          <li class="tense">
+            <p class="tense__stage">Year 2 · M.5</p>
+            <p class="tense__name">Present Continuous</p>
+            <p class="tense__formula">S + is/am/are + V-ing</p>
+            <h3 class="tense__sentence">You <mark>are becoming</mark> fluent.</h3>
+            <p class="tense__th">ฝึกโต้วาที เขียนเชิงวิชาการ และเริ่มขึ้นเวทีแข่งขัน ภาษาอังกฤษเริ่มกลายเป็นธรรมชาติของคุณ</p>
+            <ul class="tags"><li>Debate</li><li>Academic Writing</li><li>Literature &amp; Drama</li><li>Model UN</li></ul>
+          </li>
+          <li class="tense">
+            <p class="tense__stage">Year 3 · M.6</p>
+            <p class="tense__name">Future Simple</p>
+            <p class="tense__formula">S + will + V<sub>1</sub></p>
+            <h3 class="tense__sentence">You <mark>will lead</mark> the room.</h3>
+            <p class="tense__th">เตรียมสอบมาตรฐานสากล ทำโปรเจกต์วิจัย และสร้างพอร์ตโฟลิโอสำหรับยื่นมหาวิทยาลัย</p>
+            <ul class="tags"><li>IELTS / TOEFL Prep</li><li>Research Project</li><li>Portfolio</li><li>TCAS Planning</li></ul>
+          </li>
+          <li class="tense tense--final">
+            <p class="tense__stage">Beyond ECAP</p>
+            <p class="tense__name">Future Perfect</p>
+            <p class="tense__formula">S + will have + V<sub>3</sub></p>
+            <h3 class="tense__sentence">You <mark>will have become</mark> a global citizen.</h3>
+            <p class="tense__th">เส้นทางต่อยอดสู่คณะและอาชีพที่ใช้ภาษาอังกฤษเป็นจุดแข็ง</p>
+            <ul class="tags"><li>Arts &amp; Humanities</li><li>Communication Arts</li><li>International Relations</li><li>International Business</li><li>Hospitality &amp; Aviation</li><li>Law</li><li>Education</li></ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COURSES ============ -->
+  <section class="section courses" id="courses">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>Signature Courses</p>
+          <h2 class="h2" data-split>Courses with a <em>certain accent.</em></h2>
+        </div>
+        <p class="section__lead" data-reveal>รายวิชาเด่นที่ทำให้ ECAP แตกต่าง ตั้งแต่ไวยากรณ์ที่แม่นยำไปจนถึงเวทีโต้วาที</p>
+      </div>
+
+      <ul class="course-list">
+        <li class="course" data-glyph="Aa" data-reveal tabindex="0">
+          <span class="course__tag">Core</span>
+          <span class="course__body"><span class="course__name">Grammar &amp; Syntax Mastery</span><span class="course__th">ไวยากรณ์และโครงสร้างประโยค</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="¶" data-reveal tabindex="0">
+          <span class="course__tag">Core</span>
+          <span class="course__body"><span class="course__name">Academic Reading &amp; Writing</span><span class="course__th">การอ่านและการเขียนเชิงวิชาการ</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="“ ”" data-reveal tabindex="0">
+          <span class="course__tag">Skills</span>
+          <span class="course__body"><span class="course__name">Public Speaking &amp; Debate</span><span class="course__th">การพูดในที่สาธารณะและการโต้วาที</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="/ə/" data-reveal tabindex="0">
+          <span class="course__tag">Skills</span>
+          <span class="course__body"><span class="course__name">Listening &amp; Phonetics</span><span class="course__th">การฟังและสัทศาสตร์</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="&amp;" data-reveal tabindex="0">
+          <span class="course__tag">Arts</span>
+          <span class="course__body"><span class="course__name">English Literature &amp; Drama</span><span class="course__th">วรรณกรรมและการละครภาษาอังกฤษ</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="@" data-reveal tabindex="0">
+          <span class="course__tag">Applied</span>
+          <span class="course__body"><span class="course__name">Business &amp; Media English</span><span class="course__th">ภาษาอังกฤษเพื่อธุรกิจและสื่อ</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="§" data-reveal tabindex="0">
+          <span class="course__tag">Applied</span>
+          <span class="course__body"><span class="course__name">Global Issues &amp; Intercultural Communication</span><span class="course__th">ประเด็นโลกและการสื่อสารข้ามวัฒนธรรม</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+        <li class="course" data-glyph="9.0" data-reveal tabindex="0">
+          <span class="course__tag">Exam</span>
+          <span class="course__body"><span class="course__name">IELTS / TOEFL Preparation</span><span class="course__th">เตรียมสอบภาษาอังกฤษมาตรฐานสากล</span></span>
+          <svg class="course__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </li>
+      </ul>
+    </div>
+    <div class="course-preview" aria-hidden="true">
+      <span class="course-preview__glyph">Aa</span>
+      <span class="course-preview__tag">Core</span>
+    </div>
+  </section>
+
+  <!-- ============ GRAMMAR LAB ============ -->
+  <section class="section lab" id="lab">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>Grammar Lab</p>
+          <h2 class="h2" data-split>Spot the <em>mistake.</em></h2>
+        </div>
+        <p class="section__lead" data-reveal>แตะคำที่ผิดไวยากรณ์ในแต่ละประโยค มาดูกันว่าสายตานักไวยากรณ์ของคุณคมแค่ไหน</p>
+      </div>
+
+      <div class="lab__grid">
+        <div class="quiz" data-reveal>
+          <div class="quiz__meta">
+            <span>Question <b class="quiz__num">1</b> / <span class="quiz__total">6</span></span>
+            <span>Score <b class="quiz__score">0</b></span>
+          </div>
+          <div class="quiz__bar" aria-hidden="true"><i></i></div>
+          <p class="quiz__label">Tap the word that is grammatically wrong</p>
+          <div class="quiz__sentence" role="group" aria-label="ประโยคทดสอบ">
+            <button type="button" class="tok">She</button>
+            <button type="button" class="tok">don't</button>
+            <button type="button" class="tok">like</button>
+            <button type="button" class="tok">coffee</button>
+            <button type="button" class="tok">in</button>
+            <button type="button" class="tok">the</button>
+            <button type="button" class="tok">morning.</button>
+          </div>
+          <div class="quiz__feedback" aria-live="polite"></div>
+          <div class="quiz__actions">
+            <button type="button" class="btn btn--ghost btn--sm quiz__next" disabled><span>Next sentence</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+
+        <aside class="wotd" data-reveal aria-label="คำศัพท์ประจำวัน">
+          <p class="eyebrow">Word of the Day</p>
+          <p class="wotd__word">Eloquent</p>
+          <p class="wotd__line"><span class="wotd__ipa">/ˈel.ə.kwənt/</span> <span class="wotd__pos">adj.</span></p>
+          <p class="wotd__def">Fluent and persuasive in speaking or writing.</p>
+          <p class="wotd__th">พูดหรือเขียนได้อย่างคล่องแคล่วและโน้มน้าวใจ</p>
+          <p class="wotd__ex">“Her eloquent speech won the debate.”</p>
+          <div class="wotd__actions">
+            <button type="button" class="btn btn--ghost btn--sm wotd__speak" data-cursor="Listen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg><span>Pronounce</span></button>
+            <button type="button" class="btn btn--ghost btn--sm wotd__next" data-cursor="Shuffle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg><span>Another word</span></button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LIFE AT ECAP ============ -->
+  <section class="section life" id="life">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>Beyond the Classroom</p>
+          <h2 class="h2" data-split>Life at ECAP, <em>in English.</em></h2>
+        </div>
+        <div class="life__controls" data-reveal>
+          <button class="icon-btn icon-btn--lg rail-prev" type="button" aria-label="เลื่อนกิจกรรมก่อนหน้า"><svg viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+          <button class="icon-btn icon-btn--lg rail-next" type="button" aria-label="เลื่อนกิจกรรมถัดไป"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="rail" tabindex="0" aria-label="กิจกรรมของ ECAP (ลากหรือเลื่อนเพื่อดูเพิ่มเติม)" data-cursor="Drag">
+      <div class="rail__track">
+        <article class="exp" style="--a: 135deg"><div class="exp__art"><span>Camp</span></div><div class="exp__body"><p class="exp__tag">Annual</p><h3 class="exp__title">English Camp</h3><p class="exp__th">ค่ายภาษาอังกฤษที่เปลี่ยนห้องเรียนให้เป็นการผจญภัย</p></div></article>
+        <article class="exp" style="--a: 210deg"><div class="exp__art"><span>MUN</span></div><div class="exp__body"><p class="exp__tag">Competition</p><h3 class="exp__title">Model United Nations</h3><p class="exp__th">จำลองการประชุมสหประชาชาติ ฝึกการเจรจาและการทูต</p></div></article>
+        <article class="exp" style="--a: 300deg"><div class="exp__art"><span>“&#8202;”</span></div><div class="exp__body"><p class="exp__tag">Competition</p><h3 class="exp__title">Speech &amp; Debate</h3><p class="exp__th">เวทีโต้วาทีและสุนทรพจน์ทั้งในและนอกโรงเรียน</p></div></article>
+        <article class="exp" style="--a: 40deg"><div class="exp__art"><span>Act II</span></div><div class="exp__body"><p class="exp__tag">Showcase</p><h3 class="exp__title">Drama Night</h3><p class="exp__th">ละครเวทีภาษาอังกฤษ ตั้งแต่ Shakespeare จนถึงบทที่เขียนเอง</p></div></article>
+        <article class="exp" style="--a: 160deg"><div class="exp__art"><span>B‑E‑E</span></div><div class="exp__body"><p class="exp__tag">Competition</p><h3 class="exp__title">Spelling Bee</h3><p class="exp__th">ทดสอบความแม่นยำของการสะกดคำแบบสด ๆ บนเวที</p></div></article>
+        <article class="exp" style="--a: 260deg"><div class="exp__art"><span>Fest</span></div><div class="exp__body"><p class="exp__tag">Event</p><h3 class="exp__title">English Day &amp; Festivals</h3><p class="exp__th">Halloween, Christmas และ English Day ที่ทุกคนรอคอย</p></div></article>
+        <article class="exp" style="--a: 90deg"><div class="exp__art"><span>Abroad</span></div><div class="exp__body"><p class="exp__tag">Opportunity</p><h3 class="exp__title">Study Trip &amp; Exchange</h3><p class="exp__th">โอกาสเรียนรู้และใช้ภาษาอังกฤษในต่างประเทศ</p></div></article>
+        <article class="exp" style="--a: 330deg"><div class="exp__art"><span>On Air</span></div><div class="exp__body"><p class="exp__tag">Club</p><h3 class="exp__title">Podcast &amp; Media Lab</h3><p class="exp__th">ผลิตพอดแคสต์ คลิป และคอนเทนต์ภาษาอังกฤษของตัวเอง</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTES ============ -->
+  <section class="section quotes" aria-label="คำคมเกี่ยวกับภาษา">
+    <div class="container">
+      <div class="quotes__stage">
+        <figure class="quote is-active">
+          <blockquote>“The limits of my language mean the limits of my world.”</blockquote>
+          <figcaption>Ludwig Wittgenstein</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.”</blockquote>
+          <figcaption>Attributed to Nelson Mandela</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“One language sets you in a corridor for life. Two languages open every door along the way.”</blockquote>
+          <figcaption>Frank Smith</figcaption>
+        </figure>
+      </div>
+      <div class="quotes__dots" role="tablist" aria-label="เลือกคำคม">
+        <button type="button" role="tab" aria-selected="true" aria-label="คำคมที่ 1"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="คำคมที่ 2"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="คำคมที่ 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ADMISSIONS ============ -->
+  <section class="section admissions" id="admissions">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>Admissions</p>
+          <h2 class="h2" data-split>Your first sentence <em>starts here.</em></h2>
+        </div>
+        <p class="section__lead" data-reveal>ขั้นตอนการสมัครเข้าศึกษาสายการเรียน ECAP กำหนดการและคุณสมบัติเป็นไปตามประกาศของโรงเรียนในแต่ละปีการศึกษา</p>
+      </div>
+
+      <div class="admissions__grid">
+        <ol class="steps">
+          <li class="step" data-reveal>
+            <span class="step__num">01</span>
+            <div><h3 class="step__title">Register</h3><p class="step__th">ลงทะเบียนสมัครออนไลน์ หรือรับใบสมัครที่ฝ่ายวิชาการตามช่วงเวลาที่โรงเรียนประกาศ</p></div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">02</span>
+            <div><h3 class="step__title">Submit documents</h3><p class="step__th">ยื่นผลการเรียนและเอกสารประกอบการสมัครตามที่ระบุในประกาศรับสมัคร</p></div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">03</span>
+            <div><h3 class="step__title">Test &amp; interview</h3><p class="step__th">สอบวัดระดับภาษาอังกฤษและสัมภาษณ์เป็นภาษาอังกฤษ ไม่ต้องพูดเก่งที่สุด ขอแค่กล้าพูด</p></div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">04</span>
+            <div><h3 class="step__title">Welcome to ECAP</h3><p class="step__th">ประกาศผล รายงานตัว และเข้าร่วมปฐมนิเทศนักเรียนใหม่</p></div>
+          </li>
+        </ol>
+
+        <aside class="fit" data-reveal>
+          <p class="eyebrow">Who is ECAP for?</p>
+          <ul class="fit__list">
+            <li>รักภาษาอังกฤษและอยากใช้ได้จริงในชีวิตประจำวัน</li>
+            <li>อยากพัฒนาการพูด การนำเสนอ และความมั่นใจ</li>
+            <li>วางแผนเรียนต่อคณะด้านภาษา การสื่อสาร หรือหลักสูตรนานาชาติ</li>
+            <li>พร้อมลองสิ่งใหม่และกล้าแสดงออก</li>
+          </ul>
+          <a class="btn btn--gold magnetic" href="#contact"><span>Register Interest</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </aside>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq__title" data-reveal>Frequently asked</h3>
+        <details class="faq__item" data-reveal>
+          <summary><span>ECAP ต่างจากสายศิลป์-ภาษาทั่วไปอย่างไร?</span><i aria-hidden="true"></i></summary>
+          <div class="faq__a"><p>ECAP เน้นการใช้ภาษาอังกฤษเพื่อการสื่อสารและวิชาการอย่างเข้มข้น มีรายวิชาเฉพาะ เช่น Public Speaking, Debate และ Academic Writing รวมถึงกิจกรรมที่ได้ใช้ภาษาจริงตลอดทั้งปี</p></div>
+        </details>
+        <details class="faq__item" data-reveal>
+          <summary><span>ต้องเก่งภาษาอังกฤษมาก่อนไหม?</span><i aria-hidden="true"></i></summary>
+          <div class="faq__a"><p>ไม่จำเป็นต้องเก่งที่สุด แต่ควรมีพื้นฐานที่ดีและพร้อมเรียนรู้ เราสอนอย่างเป็นระบบตั้งแต่ ม.4 และมีกิจกรรมช่วยให้กล้าใช้ภาษามากขึ้นทีละขั้น</p></div>
+        </details>
+        <details class="faq__item" data-reveal>
+          <summary><span>จบแล้วเรียนต่อคณะอะไรได้บ้าง?</span><i aria-hidden="true"></i></summary>
+          <div class="faq__a"><p>อักษรศาสตร์ มนุษยศาสตร์ นิเทศศาสตร์ รัฐศาสตร์และความสัมพันธ์ระหว่างประเทศ นิติศาสตร์ บริหารธุรกิจหลักสูตรนานาชาติ การท่องเที่ยวและการโรงแรม การบิน ศึกษาศาสตร์ และคณะอื่น ๆ ที่ใช้ภาษาอังกฤษเป็นจุดแข็ง</p></div>
+        </details>
+        <details class="faq__item" data-reveal>
+          <summary><span>มีค่าใช้จ่ายเพิ่มเติมหรือไม่?</span><i aria-hidden="true"></i></summary>
+          <div class="faq__a"><p>รายละเอียดค่าใช้จ่ายเป็นไปตามประกาศของโรงเรียนในแต่ละปีการศึกษา สอบถามข้อมูลล่าสุดได้ที่ช่องทางติดต่อด้านล่าง</p></div>
+        </details>
+        <details class="faq__item" data-reveal>
+          <summary><span>ติดตามประกาศรับสมัครได้ที่ไหน?</span><i aria-hidden="true"></i></summary>
+          <div class="faq__a"><p>ติดตามได้ทาง Facebook Page และ LINE Official ของ ECAP ซึ่งจะแจ้งกำหนดการทุกครั้งก่อนเปิดรับสมัคร</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow" data-reveal>Contact</p>
+          <h2 class="h2" data-split>Let’s start a <em>conversation.</em></h2>
+        </div>
+        <p class="section__lead" data-reveal>สอบถามเรื่องการสมัคร หลักสูตร หรือกิจกรรม ติดต่อเราได้ทุกช่องทาง ทีมงานจะตอบกลับโดยเร็วที่สุด</p>
+      </div>
+
+      <div class="contact__grid">
+        <ul class="channels">
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24" class="fill"><path d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s5.9-3.5 8-6C21.4 14.3 22 12.7 22 11c0-4.4-4.5-8-10-8z"/></svg></span>
+            <span class="channel__label">LINE Official</span>
+            <span class="channel__value" data-site="lineId">@ecap.official</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="line" target="_blank" rel="noopener" aria-label="เปิด LINE"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <button class="icon-btn copy" type="button" data-copy-key="lineId" aria-label="คัดลอก LINE ID"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/></svg></button>
+            </span>
+          </li>
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24" class="fill"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/></svg></span>
+            <span class="channel__label">Facebook Page</span>
+            <span class="channel__value" data-site="facebookName">ECAP Official</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="facebook" target="_blank" rel="noopener" aria-label="เปิด Facebook"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </span>
+          </li>
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></span>
+            <span class="channel__label">Instagram</span>
+            <span class="channel__value" data-site="instagramHandle">@ecap.official</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="instagram" target="_blank" rel="noopener" aria-label="เปิด Instagram"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </span>
+          </li>
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 7 8.5-7"/></svg></span>
+            <span class="channel__label">Email</span>
+            <span class="channel__value" data-site="email">ecap@yourschool.ac.th</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="email" aria-label="ส่งอีเมล"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <button class="icon-btn copy" type="button" data-copy-key="email" aria-label="คัดลอกอีเมล"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/></svg></button>
+            </span>
+          </li>
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <span class="channel__label">Phone</span>
+            <span class="channel__value" data-site="phone">02-000-0000</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="phone" aria-label="โทรหาเรา"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <button class="icon-btn copy" type="button" data-copy-key="phone" aria-label="คัดลอกเบอร์โทร"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/></svg></button>
+            </span>
+          </li>
+          <li class="channel" data-reveal>
+            <span class="channel__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+            <span class="channel__label">Visit us</span>
+            <span class="channel__value" data-site="address">ฝ่ายวิชาการ อาคาร 1 ชั้น 2</span>
+            <span class="channel__actions">
+              <a class="icon-btn" href="#" data-site-href="map" target="_blank" rel="noopener" aria-label="เปิดแผนที่"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </span>
+          </li>
+        </ul>
+
+        <form class="form" id="contact-form" novalidate data-reveal>
+          <p class="form__title">Send us a message</p>
+          <div class="field">
+            <input id="f-name" name="name" type="text" autocomplete="name" placeholder=" " required>
+            <label for="f-name">ชื่อ – นามสกุล</label>
+          </div>
+          <div class="field">
+            <input id="f-contact" name="contact" type="text" autocomplete="email" placeholder=" " required>
+            <label for="f-contact">อีเมล หรือ เบอร์โทรศัพท์</label>
+          </div>
+          <fieldset class="chips">
+            <legend>ฉันคือ</legend>
+            <label class="chip"><input type="radio" name="role" id="f-role-student" value="นักเรียน" checked><span>นักเรียน</span></label>
+            <label class="chip"><input type="radio" name="role" id="f-role-parent" value="ผู้ปกครอง"><span>ผู้ปกครอง</span></label>
+            <label class="chip"><input type="radio" name="role" id="f-role-other" value="อื่น ๆ"><span>อื่น ๆ</span></label>
+          </fieldset>
+          <div class="field">
+            <textarea id="f-message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="f-message">ข้อความที่ต้องการสอบถาม</label>
+          </div>
+          <p class="form__error" aria-live="polite"></p>
+          <button class="btn btn--gold magnetic form__submit" type="submit"><span>Send message</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__cta">
+      <p class="footer__line" data-split>Ready to <em>speak the world?</em></p>
+      <a class="btn btn--gold magnetic" href="#admissions"><span>Apply to ECAP</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__about">
+        <p class="footer__brand">ECAP</p>
+        <p>English Communication &amp; Academic Programme<br>สายการเรียนภาษาอังกฤษเพื่อการสื่อสารและวิชาการ</p>
+      </div>
+      <nav class="footer__nav" aria-label="ลิงก์ส่วนท้าย">
+        <p class="footer__h">Explore</p>
+        <a href="#about">About</a><a href="#grammar">Pillars</a><a href="#journey">Journey</a><a href="#courses">Courses</a><a href="#lab">Grammar Lab</a>
+      </nav>
+      <div class="footer__nav">
+        <p class="footer__h">Connect</p>
+        <a href="#" data-site-href="facebook" target="_blank" rel="noopener">Facebook</a>
+        <a href="#" data-site-href="instagram" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" data-site-href="line" target="_blank" rel="noopener">LINE Official</a>
+        <a href="#" data-site-href="email" data-site="email">ecap@yourschool.ac.th</a>
+      </div>
+      <div class="footer__nav">
+        <p class="footer__h">Local time</p>
+        <p class="footer__clock"><span data-clock>--:--:--</span> <small>Bangkok, GMT+7</small></p>
+        <button class="btn btn--ghost btn--sm magnetic to-top" type="button"><span>Back to top</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+      </div>
+    </div>
+    <p class="footer__giant" aria-hidden="true">ECAP</p>
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> ECAP Programme. All rights reserved.</p>
+      <p class="footer__egg">Psst… type <kbd>e</kbd><kbd>c</kbd><kbd>a</kbd><kbd>p</kbd> anywhere.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
